@@ -1,0 +1,2 @@
+# https://docs.ultralytics.com/quickstart/#install-ultralytics
+ultralytics==8.3.58
