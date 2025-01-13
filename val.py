@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-model = YOLO("runs/detect/train4/weights/best.pt")
+model = YOLO("runs/detect/train6/weights/best.pt")
 metrics = model.val()
 
 print(metrics.box.map)  # map50-95
